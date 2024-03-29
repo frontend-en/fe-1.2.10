@@ -1,15 +1,12 @@
-// imports
 import React, { ReactNode, HTMLAttributes } from 'react';
 import './UserProfileCard.css';
 import TeacherProfile from "../teacherProfile/TeacherProfile";
 
-// Enum for profile types
 export enum ProfileType {
   Teacher = 'teacher',
   Student = 'student',
 }
 
-// Props interface
 interface UserProfileProps {
   name?: string;
   description?: string;
